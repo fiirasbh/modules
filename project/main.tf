@@ -1,5 +1,5 @@
 module "openstack_network" {
-  source              = "/home/lab/Documents/module_network/project/network_module"
+  source              = "network_module"
   network_name        = "network-test"
   subnet_name         = "subnet-test"
   subnet_cidr         = "172.16.0.0/24"
