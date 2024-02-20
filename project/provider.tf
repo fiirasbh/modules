@@ -8,10 +8,3 @@ terraform {
   }
 }
 
-provider "openstack" {
-  auth_url    = "https://auth.cloud.ovh.net/v3"
-  user_name   = "user-25QZZeyBcb6A"
-  tenant_name = "4613160473683491"
-  password    = "u5kTZQeDWX3zVQepHWHtm3CZcWsFAwTz"
-  region      = "GRA11" 
-}
